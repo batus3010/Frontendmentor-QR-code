@@ -9,7 +9,18 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-
+    @media screen and (max-width: 768px) {
+      .card {
+        max-width: 90%; 
+        margin: 0 auto; 
+      }
+    }
+    @media screen and (min-width: 769px) {
+      .card {
+        max-width: 18rem; /* Adjust width for larger screens */
+        margin: 0 auto; /* Center the card horizontally */
+      }
+    }
     body{
         background-color: hsl(212, 45%, 89%);
         font-family: 'Libre Baskerville', serif;
@@ -20,7 +31,6 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        max-width: 18rem;
         padding: 1rem;
         border-radius: 20px;
     }
