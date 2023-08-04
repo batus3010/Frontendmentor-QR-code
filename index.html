@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device --> 
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        background-color: hsl(212, 45%, 89%);
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Outfit', sans-serif; 
+    }
+    .card{
+        background-color: hsl(0, 0%, 100%);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 18rem;
+        padding: 1rem;
+        border-radius: 20px;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #title{
+        color: hsl(218, 44%, 22%);
+        font-weight: 900;
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+    #des{
+        color:  hsl(220, 15%, 55%); 
+        font-size: 0.9rem;
+    }
+    .card-img{
+        border-radius: 5%;
+        width: 100%;
+    }
+  </style>
+</head>
+<body>
+    <div class="content"> 
+        <div class="card">
+            <img class="card-img" src="./images/image-qr-code.png" alt="qr code link to Frontendmentor site">
+            <h1 class="text" id="title">Improve your front-end skills by building projects</h1>
+            <p class="text" id="des">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+    </div>
+  </div>
+  
+    <footer>
+        
+            <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Batuhan</a>.
+    </footer>
+</body>
+</html>
