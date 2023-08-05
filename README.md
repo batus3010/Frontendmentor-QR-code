@@ -36,7 +36,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Put elements inside a container, set the height of it to 100vh and use CSS flexbox to position it at the center of screen 
 ```css
-    .content{
+    .container{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -47,14 +47,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ```css
     @media screen and (max-width: 768px) {
       .card {
-        max-width: 90%; 
-        margin: 0 auto; 
+        /*customized style for screen equal to and below 768px*/
       }
     }
     @media screen and (min-width: 769px) {
       .card {
-        max-width: 18rem; /* Adjust width for larger screens */
-        margin: 0 auto; /* Center the card horizontally */
+        /*style for screen size above 769px*/
       }
     }
 ```
